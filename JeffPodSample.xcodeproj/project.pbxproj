@@ -10,6 +10,8 @@
 		086A7399211EFE7800DBBD24 /* JeffPodSample.h in Headers */ = {isa = PBXBuildFile; fileRef = 086A7397211EFE7800DBBD24 /* JeffPodSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		086A73A0211EFE8A00DBBD24 /* JeffPodSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A739F211EFE8A00DBBD24 /* JeffPodSample.swift */; };
 		086A73A5211EFF3100DBBD24 /* JeffPodSample.swift in Headers */ = {isa = PBXBuildFile; fileRef = 086A739F211EFE8A00DBBD24 /* JeffPodSample.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		086A73D2211F824800DBBD24 /* JeffSamplePod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 086A73D1211F824800DBBD24 /* JeffSamplePod.podspec */; };
+		086A73D4211F824E00DBBD24 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 086A73D3211F824E00DBBD24 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		086A7397211EFE7800DBBD24 /* JeffPodSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeffPodSample.h; sourceTree = "<group>"; };
 		086A7398211EFE7800DBBD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086A739F211EFE8A00DBBD24 /* JeffPodSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeffPodSample.swift; sourceTree = "<group>"; };
+		086A73D1211F824800DBBD24 /* JeffSamplePod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JeffSamplePod.podspec; sourceTree = SOURCE_ROOT; };
+		086A73D3211F824E00DBBD24 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 		086A7396211EFE7800DBBD24 /* JeffPodSample */ = {
 			isa = PBXGroup;
 			children = (
+				086A73D3211F824E00DBBD24 /* LICENSE */,
+				086A73D1211F824800DBBD24 /* JeffSamplePod.podspec */,
 				086A7397211EFE7800DBBD24 /* JeffPodSample.h */,
 				086A7398211EFE7800DBBD24 /* Info.plist */,
 				086A739F211EFE8A00DBBD24 /* JeffPodSample.swift */,
@@ -126,6 +132,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086A73D4211F824E00DBBD24 /* LICENSE in Resources */,
+				086A73D2211F824800DBBD24 /* JeffSamplePod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
