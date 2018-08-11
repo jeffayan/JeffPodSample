@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
  s.source  = { :git => "https://github.com/jeffayan/JeffPodSample.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'PodSample/*.swift'
+  s.source_files = 'JeffPodSample/*.swift'
 end
