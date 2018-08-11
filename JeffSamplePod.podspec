@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'JeffSamplePod'
-  s.version = '4.0.0'
+  s.version = '4.0.1'
   s.license = 'MIT'
   s.summary = 'Sample to create podfile'
   s.homepage = 'https://github.com/jeffayan'
